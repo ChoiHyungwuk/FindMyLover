@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">FindMyLover</string>
+
+    <!--Login resource-->
+    <string name="app_title">소중한 내 연인 찾기</string>
+    <string name="email_hint">email</string>
+    <string name="passwd_hint">password</string>
+    <string name="login">로그인</string>
+    <string name="auto_login">자동 로그인</string>
+    <string name="kakao_login">카카오 로그인</string>
+    <string name="forget_member_info">아이디/비밀번호 찾기</string>
+    <string name="create_member">회원 가입</string>
+    <string name="create_member_guide">아직 회원이 아니신가요?</string>
+    <!--Login resource-->
+
 </resources>

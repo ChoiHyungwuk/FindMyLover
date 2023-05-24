@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login resource-->
+    <dimen name="login_page_margin">50dp</dimen>
+
+
+    <dimen name="login_button_margin_l">15dp</dimen>
+    <dimen name="login_button_margin_r">15dp</dimen>
+
+    <dimen name="login_edit_text_margin_b">5dp</dimen>
+    <dimen name="login_edit_text_margin_t">10dp</dimen>
+
+    <dimen name="app_title_size">30sp</dimen>
+    <dimen name="guide_text_size">15sp</dimen>
+    <!--Login resource-->
+</resources>
