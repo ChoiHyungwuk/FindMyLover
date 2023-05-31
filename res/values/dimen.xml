@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Login resource-->
-    <dimen name="login_page_margin">50dp</dimen>
+    <dimen name="login_page_margin">30dp</dimen>
 
 
     <dimen name="login_button_margin_l">15dp</dimen>

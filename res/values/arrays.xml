@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="phone">
+        <item>010</item>
+        <item>011</item>
+        <item>016</item>
+        <item>017</item>
+        <item>018</item>
+        <item>019</item>
+    </array>
+
+    <array name="email">
+        <item>직접 입력</item>
+        <item>navar.com</item>
+        <item>daum.net</item>
+        <item>gmail.com</item>
+        <item>kakao.com</item>
+        <item>nate.com</item>
+        <item>hotmail.com</item>
+    </array>
+</resources>
