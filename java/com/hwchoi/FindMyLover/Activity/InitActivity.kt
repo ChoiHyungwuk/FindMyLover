@@ -14,20 +14,26 @@ class InitActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState, persistentState)
         setContentView(R.layout.intro_layout)
 
-        Handler().postDelayed({
-            GoToLogin()
-        }, mIntroDelay.toLong())
-
         //TODO -> 자동 로그인 값 확인
         // 확인 되면 메인 안되면 로그인 화면
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        Handler().postDelayed({
+            GoToLogin()
+        }, mIntroDelay.toLong())
+    }
+
     private fun GoToLogin() {
         startActivity(Intent(this, LoginActivity::class.java))
+        finish()
     }
 
     private fun GoToMain() {
         startActivity(Intent(this, MainActivity::class.java))
+        finish()
     }
 
     override fun onBackPressed() {
