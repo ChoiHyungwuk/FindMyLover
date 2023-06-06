@@ -47,7 +47,7 @@ class LoginActivity : AppCompatActivity() {
         val mFragmentManager: FragmentManager = supportFragmentManager
         val mTransaction: FragmentTransaction = mFragmentManager.beginTransaction()
         val fragment = LoginFragment()
-        mTransaction.add(R.id.fragment_views,fragment)
+        mTransaction.replace(R.id.fragment_views,fragment)
         mTransaction.commit()
     }
 
