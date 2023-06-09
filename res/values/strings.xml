@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">FindMyLover</string>
 
+    <string name="button_ok">확인</string>
+    <string name="button_cancel">취소</string>
+
     <!--Login resource-->
     <string name="app_title">소중한 내 연인 찾기</string>
     <string name="email_hint">email</string>
@@ -15,15 +18,26 @@
 
     <!--Sign Up resource-->
     <string name="sign_up_title">회원가입</string>
-    <string name="sign_up_id_guide">아이디</string>
+    <string name="sign_up_id_guide">아이디 (이메일)</string>
     <string name="sign_up_password_guide">패스워드</string>
+    <string name="sign_up_password_pattern_guide">패스워드 (영문, 숫자, 특수문자가 포함된 8-15자)</string>
     <string name="sign_up_password_check_guide">패스워드 확인</string>
     <string name="sign_up_email_guide">이메일</string>
-    <string name="sign_up_overlap_check">중복 체크</string>
     <string name="sign_up_nick_guide">닉네임</string>
     <string name="sign_up_name_guide">이름</string>
     <string name="sign_up_phone_guide">휴대폰 번호</string>
     <string name="sign_up_back">뒤로 가기</string>
+
+    <string name="sign_up_back_alert">정말 뒤로 가시겠습니까?\n입력하신 데이터는 삭제됩니다.</string>
+    <string name="sign_up_done">입력하신 이메일로\n최종 동의 메일이 발송되었습니다.\n최종 동의 이후 앱 로그인이 가능합니다.</string>
+    <string name="sign_up_overlap_email">이미 가입된 이메일 주소입니다.</string>
+    <string name="sign_up_id_error">올바른 이메일 주소를 입력해주세요.</string>
+    <string name="sign_up_pw_error">패스워드 양식에 맞게 입력해주세요. (영문, 숫자, 특수문자가 포함된 8-15자)</string>
+    <string name="sign_up_pw_con_error">패스워드가 일치하지 않습니다.</string>
+    <string name="sign_up_id_error2">이메일 주소를 입력해주세요.</string>
+    <string name="sign_up_nick_error">닉네임을 입력해주세요.</string>
+    <string name="sign_up_name_error">이름을 입력해주세요.</string>
+    <string name="sign_up_phone_error">휴대폰 번호를 입력해주세요.</string>
     <!--Sign Up resource-->
 
     <string name="back_pressed_text">뒤로가기 버튼을 한번 더 누르시면 앱이 종료 됩니다</string>
