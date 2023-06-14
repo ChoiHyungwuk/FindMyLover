@@ -14,6 +14,9 @@
     <string name="forget_member_info">아이디/비밀번호 찾기</string>
     <string name="sign_up">회원 가입</string>
     <string name="sign_up_guide">아직 회원이 아니신가요?</string>
+
+    <string name="auto_login_key">com.hwchoi.FindMyLover.autologinkey</string>
+
     <!--Login resource-->
 
     <!--Sign Up resource-->
